@@ -1,7 +1,49 @@
-.main {
+body {
   background-color: red;
+  margin: 0px 50px;
 }
 
-h1 (
-  
-)
+.heading {
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 500px;
+  border: 3px solid black;
+}
+
+.left {
+  display: inline-block;
+  margin: 0px;
+  border: 2px solid black;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.right {
+  align-items: ;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0px ;
+  border: 2px solid black;
+}
+
+.canvas {
+  width: device-width;
+  height: 500px;
+  border: 10px solid black;
+}
+
+.button {
+  width: 20px;
+  height: 20px;
+  padding: 2rem;
+  border-radius: 50%;
+}
+.test {
+  clear: both;
+  ;
+}
